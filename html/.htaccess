@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Restrict access to the other folders/files in api/ by redirecting everything to api/index.php
+RewriteRule ^api/.*$  api/index.php
